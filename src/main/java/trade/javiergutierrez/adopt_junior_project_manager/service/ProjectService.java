@@ -20,7 +20,7 @@ public class ProjectService {
 
     // MÉTODO NO IMPLEMENTADO
     public List<Project> getAllProjects() {
-        return projectRepository.findAll();
+        return null;
     }
 
     public Project createProject(Project project) {
