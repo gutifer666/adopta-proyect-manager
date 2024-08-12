@@ -22,7 +22,6 @@ public class ProjectService {
     public List<Project> getAllProjects() {
         return null;
     }
-
     public Project createProject(Project project) {
         return projectRepository.save(project);
     }
